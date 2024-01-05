@@ -1,8 +1,12 @@
 {
-  "name": "npm-registry",
+  "name": "@rajasingh545/npm-package",
   "version": "1.0.0",
   "description": "A sample npm registry application",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
     "build": "tsc"
   },
